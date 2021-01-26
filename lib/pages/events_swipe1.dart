@@ -48,13 +48,13 @@ class _Event1SwipeState extends State<Events1Swipe> {
 
   @override
   Widget build(BuildContext context) {
-    EventsNotifier eventsNotifier = Provider.of<EventsNotifier>(context);
-    _eventsFullList = eventsNotifier.eventsList;
-    oneTimePass
-        ? (_filteredEventsList = _eventsFullList)
-        : (_filteredEventsList = _filteredEventsList);
-    oneTimePass = false;
-    print(_eventsFullList.length);
+      EventsNotifier eventsNotifier = Provider.of<EventsNotifier>(context);
+      _eventsFullList = eventsNotifier.eventsList;
+      oneTimePass ? (_filteredEventsList = _eventsFullList) : (_filteredEventsList = _filteredEventsList);
+      if(_eventsFullList.length>0){
+        oneTimePass = false;
+      }
+      else oneTimePass = true;
     return Scaffold(
       body: ClipRRect(
         borderRadius: BorderRadius.only(
