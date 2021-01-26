@@ -60,6 +60,7 @@ class OpeningPage extends StatelessWidget {
         ),
         onPressed: () {
           print("Register Pressed");
+          //TODO: Test
           Navigator.of(context).pushNamed(WelcomeScreenRoutes.authRegister);
         },
       ),

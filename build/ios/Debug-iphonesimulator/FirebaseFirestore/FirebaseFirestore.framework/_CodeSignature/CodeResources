@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		3y++sUAKzaCQmjLBz2v0kvESHgc=
+		</data>
 		<key>Headers/FIRCollectionReference.h</key>
 		<data>
 		4Y5rQ6gMkZzvwGWpYMVLDmvRmD4=
@@ -86,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+pcX6IwU1loyf0E8bTuRVxhpSNI=
+		+sYGJfIKzz+0i7Wv4pFo01ads30=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
