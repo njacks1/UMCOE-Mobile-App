@@ -1,5 +1,4 @@
 import 'package:coe_mobile_app/api/tutoring_api.dart';
-import 'file:///Users/maisylam/AndroidStudioProjects/Almost_Final_Demo/Maisy_Forked_COE_App/lib/notifier/hkn_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:coe_mobile_app/constants/fonts.dart';
@@ -7,6 +6,8 @@ import 'package:coe_mobile_app/Objects/TutoredCourse.dart';
 import 'package:coe_mobile_app/constants/color_constant.dart';
 import 'package:coe_mobile_app/custom_expansion_tile.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:coe_mobile_app/notifier/hkn_notifier.dart';
+
 
 class HKNPage extends StatefulWidget {
   @override
