@@ -106,7 +106,7 @@ class _MenuDashboardLayoutState extends State<MenuDashboardLayout> with SingleTi
       return 0;
     } else if (navigationState is MessagesPage) {
       return 1;
-    } else if (navigationState is UtilityBillsPage) {
+    } else if (navigationState is SettingsPage) {
       return 2;
     } else {
       return 0;

@@ -10,6 +10,7 @@ import 'events_swipe1.dart';
 import 'package:provider/provider.dart';
 import 'package:coe_mobile_app/constants/fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:coe_mobile_app/notifier/hkn_notifier.dart';
 
 class MyHomePage extends StatefulWidget with NavigationStates {
   Function onMenuTap1;
@@ -69,6 +70,9 @@ class _MyHomePageState extends State<MyHomePage>
         ),
         ChangeNotifierProvider(
           create: (provider2) => EventsNotifier(),
+        ),
+        ChangeNotifierProvider(
+          create: (provider3) => HknNotifier(),
         ),
       ],
       child: Container(
