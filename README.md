@@ -2,7 +2,7 @@
 University of Miami: College of Engineering Mobile Application
 
 # Developers
-Maisy Lam, Nicholas Jacks and David Cohen
+Maisy Lam and Nicholas Jacks
 
 # About
 Mobile Application for College of Engineering students at the University of Miami
