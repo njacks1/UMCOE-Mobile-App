@@ -9,7 +9,107 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7614c287-05b3-4244-895c-88bdd96f295a" name="Default Changelist" comment="" />
+    <list default="true" id="7614c287-05b3-4244-895c-88bdd96f295a" name="Default Changelist" comment="(+) Added Firebase Support&#10;(+) Beginnings of StudentOrg_DataMap.dart population">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/openssl_grpc" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/BoringSSL-GRPC/openssl_grpc.framework/openssl_grpc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/FirebaseAuth" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/FirebaseAuth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/FirebaseCore" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/FirebaseCore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers/FirebaseCoreDiagnostics-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers/FirebaseCoreDiagnostics-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Headers/FirebaseFirestore-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/FirebaseFirestore/FirebaseFirestore.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/GTMSessionFetcher" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GTMSessionFetcher/GTMSessionFetcher.framework/GTMSessionFetcher" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/GoogleDataTransport" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/GoogleDataTransport" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/Headers/GoogleDataTransport-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/Headers/GoogleDataTransport-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleDataTransport/GoogleDataTransport.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/GoogleUtilities" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/GoogleUtilities" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/Headers/GoogleUtilities-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/Headers/GoogleUtilities-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/GoogleUtilities/GoogleUtilities.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers/Pods-Runner-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Headers/Pods-Runner-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Pods_Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/Pods_Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Pods_Runner.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/FBLPromises" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/FBLPromises" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/PromisesObjC-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/PromisesObjC-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/Headers/abseil-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/Headers/abseil-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/absl" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/abseil/absl.framework/absl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/Headers/cloud_firestore-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/Headers/cloud_firestore-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/cloud_firestore" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/cloud_firestore/cloud_firestore.framework/cloud_firestore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/firebase_auth" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_auth/firebase_auth.framework/firebase_auth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/Headers/firebase_core-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/Headers/firebase_core-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/firebase_core" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/firebase_core/firebase_core.framework/firebase_core" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/gRPCCertificates-Cpp.bundle/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/gRPCCertificates-Cpp.bundle/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/Headers/gRPC-C++-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/Headers/gRPC-C++-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/gRPCCertificates-Cpp.bundle/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/gRPCCertificates-Cpp.bundle/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/gRPCCertificates-Cpp.bundle/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/grpcpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-C++/grpcpp.framework/grpcpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-Core/grpc.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-Core/grpc.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-Core/grpc.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-Core/grpc.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-Core/grpc.framework/grpc" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/gRPC-Core/grpc.framework/grpc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers/leveldb-library-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers/leveldb-library-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/leveldb" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/leveldb-library/leveldb.framework/leveldb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/Headers/nanopb-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/Headers/nanopb-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/nanopb" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/nanopb/nanopb.framework/nanopb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Headers/url_launcher-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Headers/url_launcher-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/url_launcher" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/url_launcher/url_launcher.framework/url_launcher" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/pod_inputs.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/pod_inputs.fingerprint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/user_login/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/user_login/welcome_screen.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +128,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Nick" />
         <option value="Nicholas Jacks &lt;njj17@miami.edu&gt;" />
       </list>
     </option>
@@ -48,7 +149,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/api" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -157,11 +258,13 @@
       <screen x="0" y="23" width="1440" height="830" />
     </state>
     <state x="473" y="210" key="AndroidProcessChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1604815882028" />
-    <state x="327" y="115" key="CommitChangelistDialog2" timestamp="1605686444873">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state x="2178" y="149" key="CommitChangelistDialog2" timestamp="1611623550921">
+      <screen x="1680" y="23" width="2560" height="1347" />
     </state>
     <state x="327" y="115" key="CommitChangelistDialog2/0.23.1680.979@0.23.1680.979" timestamp="1605686444873" />
-    <state width="1259" height="501" key="GridCell.Tab.0.bottom" timestamp="1611587516486">
+    <state x="2178" y="149" key="CommitChangelistDialog2/1680.23.2560.1347/0.23.1680.1027@1680.23.2560.1347" timestamp="1611623550921" />
+    <state x="2178" y="156" key="CommitChangelistDialog2/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611622466817" />
+    <state width="1198" height="330" key="GridCell.Tab.0.bottom" timestamp="1611623211240">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state width="819" height="262" key="GridCell.Tab.0.bottom/-1116.143.1116.697/0.23.1680.1027@0.23.1680.1027" timestamp="1606621835932" />
@@ -181,10 +284,10 @@
     <state width="819" height="263" key="GridCell.Tab.0.bottom/1680.23.1116.698/0.23.1680.1027@0.23.1680.1027" timestamp="1606531770360" />
     <state width="819" height="263" key="GridCell.Tab.0.bottom/1680.23.1116.733/0.23.1680.979@0.23.1680.979" timestamp="1606524933381" />
     <state width="1198" height="330" key="GridCell.Tab.0.bottom/1680.23.2560.1417/0.23.1680.979@1680.23.2560.1417" timestamp="1611556287775" />
-    <state width="1259" height="501" key="GridCell.Tab.0.bottom/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611587516486" />
+    <state width="1198" height="330" key="GridCell.Tab.0.bottom/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611623211240" />
     <state width="1199" height="312" key="GridCell.Tab.0.bottom/1680.23.2560.1417/0.23.1680.981@1680.23.2560.1417" timestamp="1611121267070" />
     <state width="1200" height="313" key="GridCell.Tab.0.bottom/1680.23.2560.1417/0.23.1680.982@1680.23.2560.1417" timestamp="1610920543938" />
-    <state width="1259" height="501" key="GridCell.Tab.0.center" timestamp="1611587516486">
+    <state width="1198" height="330" key="GridCell.Tab.0.center" timestamp="1611623211239">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state width="819" height="262" key="GridCell.Tab.0.center/-1116.143.1116.697/0.23.1680.1027@0.23.1680.1027" timestamp="1606621835931" />
@@ -204,10 +307,10 @@
     <state width="819" height="263" key="GridCell.Tab.0.center/1680.23.1116.698/0.23.1680.1027@0.23.1680.1027" timestamp="1606531770359" />
     <state width="819" height="263" key="GridCell.Tab.0.center/1680.23.1116.733/0.23.1680.979@0.23.1680.979" timestamp="1606524933380" />
     <state width="1198" height="330" key="GridCell.Tab.0.center/1680.23.2560.1417/0.23.1680.979@1680.23.2560.1417" timestamp="1611556287774" />
-    <state width="1259" height="501" key="GridCell.Tab.0.center/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611587516486" />
+    <state width="1198" height="330" key="GridCell.Tab.0.center/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611623211239" />
     <state width="1199" height="312" key="GridCell.Tab.0.center/1680.23.2560.1417/0.23.1680.981@1680.23.2560.1417" timestamp="1611121267070" />
     <state width="1200" height="313" key="GridCell.Tab.0.center/1680.23.2560.1417/0.23.1680.982@1680.23.2560.1417" timestamp="1610920543937" />
-    <state width="1259" height="501" key="GridCell.Tab.0.left" timestamp="1611587516486">
+    <state width="1198" height="330" key="GridCell.Tab.0.left" timestamp="1611623211239">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state width="819" height="262" key="GridCell.Tab.0.left/-1116.143.1116.697/0.23.1680.1027@0.23.1680.1027" timestamp="1606621835931" />
@@ -227,10 +330,10 @@
     <state width="819" height="263" key="GridCell.Tab.0.left/1680.23.1116.698/0.23.1680.1027@0.23.1680.1027" timestamp="1606531770359" />
     <state width="819" height="263" key="GridCell.Tab.0.left/1680.23.1116.733/0.23.1680.979@0.23.1680.979" timestamp="1606524933379" />
     <state width="1198" height="330" key="GridCell.Tab.0.left/1680.23.2560.1417/0.23.1680.979@1680.23.2560.1417" timestamp="1611556287774" />
-    <state width="1259" height="501" key="GridCell.Tab.0.left/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611587516486" />
+    <state width="1198" height="330" key="GridCell.Tab.0.left/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611623211239" />
     <state width="1199" height="312" key="GridCell.Tab.0.left/1680.23.2560.1417/0.23.1680.981@1680.23.2560.1417" timestamp="1611121267070" />
     <state width="1200" height="313" key="GridCell.Tab.0.left/1680.23.2560.1417/0.23.1680.982@1680.23.2560.1417" timestamp="1610920543936" />
-    <state width="1259" height="501" key="GridCell.Tab.0.right" timestamp="1611587516486">
+    <state width="1198" height="330" key="GridCell.Tab.0.right" timestamp="1611623211240">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state width="819" height="262" key="GridCell.Tab.0.right/-1116.143.1116.697/0.23.1680.1027@0.23.1680.1027" timestamp="1606621835932" />
@@ -250,19 +353,19 @@
     <state width="819" height="263" key="GridCell.Tab.0.right/1680.23.1116.698/0.23.1680.1027@0.23.1680.1027" timestamp="1606531770359" />
     <state width="819" height="263" key="GridCell.Tab.0.right/1680.23.1116.733/0.23.1680.979@0.23.1680.979" timestamp="1606524933380" />
     <state width="1198" height="330" key="GridCell.Tab.0.right/1680.23.2560.1417/0.23.1680.979@1680.23.2560.1417" timestamp="1611556287774" />
-    <state width="1259" height="501" key="GridCell.Tab.0.right/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611587516486" />
+    <state width="1198" height="330" key="GridCell.Tab.0.right/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611623211240" />
     <state width="1199" height="312" key="GridCell.Tab.0.right/1680.23.2560.1417/0.23.1680.981@1680.23.2560.1417" timestamp="1611121267070" />
     <state width="1200" height="313" key="GridCell.Tab.0.right/1680.23.2560.1417/0.23.1680.982@1680.23.2560.1417" timestamp="1610920543938" />
     <state x="604" y="155" key="RollbackChangesDialog" timestamp="1606447314745">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="604" y="155" key="RollbackChangesDialog/0.23.1440.829@0.23.1440.829" timestamp="1606447314745" />
-    <state x="2750" y="489" key="SettingsEditor" timestamp="1610411025880">
+    <state x="2750" y="489" key="SettingsEditor" timestamp="1611622171568">
       <screen x="1680" y="23" width="2560" height="1417" />
     </state>
     <state x="224" y="75" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1604552486656" />
     <state x="219" y="23" key="SettingsEditor/0.23.1680.978@0.23.1680.978" timestamp="1605588971132" />
-    <state x="2750" y="489" key="SettingsEditor/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1610411025880" />
+    <state x="2750" y="489" key="SettingsEditor/1680.23.2560.1417/0.23.1680.980@1680.23.2560.1417" timestamp="1611622171568" />
     <state x="139" y="123" width="860" height="629" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1605398392197">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
