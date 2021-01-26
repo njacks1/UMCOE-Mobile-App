@@ -39,7 +39,7 @@ class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
         );
         break;
       case NavigationEvents.UtilityClickedEvent:
-        yield UtilityBillsPage(
+        yield SettingsPage(
           onMenuTap: onMenuTap,
         );
         break;
