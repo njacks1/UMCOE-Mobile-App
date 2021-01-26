@@ -1,10 +1,12 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+
 class Event {
   String name;
   String description;
   String time;
-
-  //DateTime date;
   String zoomlink;
+  Timestamp date;
 
   Event();
 
@@ -12,7 +14,8 @@ class Event {
     name = data['name'];
     description = data['description'];
     time = data['time'];
-    //date = data['date'];
     zoomlink = data['zoomlink'];
+    date = data['date'];
+
   }
 }
