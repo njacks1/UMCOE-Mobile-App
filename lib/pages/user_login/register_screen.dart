@@ -304,7 +304,8 @@ class _RegisterViewState extends State<Register> {
                 _emailController.text.endsWith('@miami.edu')) {
               UserCredential userCredential =
                   await FirebaseAuth.instance.createUserWithEmailAndPassword(
-                      email: _emailController.text,
+                      //email: _emailController.text,
+                      email: "maisylam99@gmail.com",
                       password: _passwordController.text);
               User updateUser = FirebaseAuth.instance.currentUser;
               updateUser.updateProfile(displayName: _firstnameController.text);
