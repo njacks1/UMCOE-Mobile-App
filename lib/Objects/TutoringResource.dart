@@ -12,11 +12,11 @@ class TutoringResource {
 
   TutoringResource(
       {@required this.Name,
-      @required this.Description,
-      this.RequestTutoring,
-      this.Zoomlink,
-      @required this.gradient1,
-      @required this.gradient2,
-      @required this.Icon_data,
-      this.ViewSchedule});
+        @required this.Description,
+        this.RequestTutoring,
+        this.Zoomlink,
+        @required this.gradient1,
+        @required this.gradient2,
+        @required this.Icon_data,
+        this.ViewSchedule});
 }
